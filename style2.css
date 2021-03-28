@@ -1,0 +1,119 @@
+@import url("sanitize.css");
+
+h1{
+    font-size: 24px;
+    color: #fff;
+    border-bottom: 1px solid;
+
+}
+
+p{
+    font-size: 14px;
+}
+
+
+h2{
+ font-size: 24px;
+ color: #fff;
+ border-bottom: 1px solid;
+ background-color: #4ea7ff;
+ border-radius: 5px;
+ padding: 10px;
+
+}
+
+#main {
+    box-sizing: border-box;
+    margin-left: 220px;
+    padding: 20px;
+    padding-left:50px;
+    width:1000px;
+  }
+
+
+
+  #sub {
+    box-sizing: border-box;
+
+    height: 100%;
+    width: 220px;
+    position: fixed;
+    overflow: auto;
+    background: #4ea7ff;
+    padding: 20px;
+    padding-top: 40px;
+  }
+
+
+  .menu{
+      padding: 0;
+      position: relative;
+
+  }
+  .in_menu{
+      color: #4ea7ff;
+      background: #fff;
+      margin-bottom: 3px;
+      line-height:1.5;
+      padding: 0.5em;
+      list-style: none;
+      border-radius: 5px;
+      font-size: 15px;
+      display: block;
+  }
+
+  .in_menu:hover{
+
+    opacity: 0.8;
+  }
+
+  .contents{
+      border: 1px solid #4ea7ff;
+      margin-top:1em;
+      padding: 10px;
+  }
+  
+  .sub{
+      list-style: circle;
+  }
+  
+  .c_title{
+    border-bottom: 1px solid #4ea7ff;
+    font-size: 18px;
+    font-weight: bold;
+    margin-top: 5px;
+    
+  }
+
+.check{
+    display: none;
+}
+
+.accordion{
+    visibility: hidden;
+}
+
+.check:checked + .in_menu + .accordion{
+
+    visibility: visible;
+}
+
+.c_menu{
+    background-color:#ffffff;
+    opacity: 0.5;
+    margin: 3px;
+    padding: 0.5em;
+    padding-left:1em;
+    border-bottom: 5px;
+    }
+
+.c_menu:hover{
+    background-color: #fff;
+    opacity: 0.8;
+}
+
+a{
+    text-decoration: none;
+    color: #000000;
+    
+}
